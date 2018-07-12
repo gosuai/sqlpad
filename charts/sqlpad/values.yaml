@@ -24,9 +24,3 @@ google_client_secret: "7Aj0_9o6teVxlnq1RmhDckWP"
 public_url: "https://sqlpad.gosu.ai"
 whitelisted_domains: "gosu.ai"
 admin_email: "nb@gosu.ai"
-registry_secret:
-  gosuai.azurecr.io:
-    username: gosuai
-    password: "FRvXLszB=b1xsKu2vC2wNrpXf6xkF0VV"
-    email: nb@gosu.ai
-    auth: "Z29zdWFpOkZSdlhMc3pCPWIxeHNLdTJ2QzJ3TnJwWGY2eGtGMFZW"
