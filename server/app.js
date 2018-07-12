@@ -71,7 +71,7 @@ app.use(
     saveUninitialized: false,
     resave: true,
     rolling: true,
-    cookie: { maxAge: ONE_HOUR_MS },
+    cookie: { maxAge: ONE_HOUR_MS * 24 * 30 },
     secret: cookieSecrets
   })
 )
