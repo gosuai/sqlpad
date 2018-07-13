@@ -45,6 +45,8 @@ spec:
             httpGet:
               path: /
               port: {{ .Values.service.internalPort }}
+            initialDelaySeconds: 5
+            periodSeconds: 5
           readinessProbe:
             httpGet:
               path: /
