@@ -101,11 +101,14 @@ db.onLoad(function(err) {
         // TODO FIXME XXX  Persist the new port to the in-memory store.
         // config.set('port', _port)
       }
-      http.createServer(app).listen(_port, ip, function() {
-        const hostIp = ip === '0.0.0.0' ? 'localhost' : ip
-        const url = `http://${hostIp}:${_port}${baseUrl}`
-        console.log(`\nWelcome to SQLPad!. Visit ${url} to get started`)
-      })
+      http
+        .createServer(app)
+        .listen(_port, ip, function() {
+          const hostIp = ip === '0.0.0.0' ? 'localhost' : ip
+          const url = `http://${hostIp}:${_port}${baseUrl}`
+          console.log(`\nWelcome to SQLPad!. Visit ${url} to get started`)
+        })
+        .setTimeout(5 * 60 * 1000)
     })
   }
 })
