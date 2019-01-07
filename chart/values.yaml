@@ -2,7 +2,7 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 replicaCount: 1
-image: sqlpad/sqlpad:2.6.0
+image: sqlpad/sqlpad:2.8.0
 service:
   name: nginx
   type: ClusterIP
@@ -20,8 +20,8 @@ ingress:
     - secretName: sqlpad
       hosts:
         - sqlpad.gosu.ai
-google_client_id: "770784968475-jd4hrb26cepfldnolq1t2dcd48rs9fao.apps.googleusercontent.com"
-google_client_secret: "7Aj0_9o6teVxlnq1RmhDckWP"
+google_client_id: "1013908672460-a8a17l9dpi32r94q65ob7f259od8at13.apps.googleusercontent.com"
+google_client_secret: "Fr2tac_xfIxp2oYQ6o8nuiuq"
 public_url: "https://sqlpad.gosu.ai"
 whitelisted_domains: "gosu.ai"
 admin_email: "nb@gosu.ai"
