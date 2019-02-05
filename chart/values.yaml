@@ -23,5 +23,5 @@ ingress:
 google_client_id: "1013908672460-a8a17l9dpi32r94q65ob7f259od8at13.apps.googleusercontent.com"
 google_client_secret: "Fr2tac_xfIxp2oYQ6o8nuiuq"
 public_url: "https://sqlpad.gosu.ai"
-whitelisted_domains: "gosu.ai"
+whitelisted_domains: ""
 admin_email: "nb@gosu.ai"
