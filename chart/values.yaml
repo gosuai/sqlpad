@@ -25,3 +25,6 @@ google_client_secret: "Fr2tac_xfIxp2oYQ6o8nuiuq"
 public_url: "https://sqlpad.gosu.ai"
 whitelisted_domains: ""
 admin_email: "nb@gosu.ai"
+
+livenessTimeout: 300
+readinessTimeout: 300
